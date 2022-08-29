@@ -61,10 +61,15 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'],function () {
     Route::put('designation/{id}/update', [DesignationController::class, 'update'])->name('designations.update')->middleware(['can:Update Designations']);
     Route::delete('designation/{id}', [DesignationController::class, 'destroy'])->name('designations.destroy')->middleware(['can:Delete Designations']);
 
-    
+
     Route::get('reset-password/{user}', [UserController::class, 'reset_password'])->name('users.reset_password');
     Route::get('my-profile', [GeneralController::class, 'myProfile'])->name('site.myProfile');
     Route::get('site-settings', [GeneralController::class, 'siteSettings'])->name('site.siteSettings');
-    Route::post('/site-settings-save', [GeneralController::class, 'save_general_settings'])->name('site_settings_save');    
+    Route::post('/site-settings-save', [GeneralController::class, 'save_general_settings'])->name('site_settings_save');
+
+
+    Route::get('index', function () {
+        return view('frontend.pages.index');
+    });
 });
 require __DIR__.'/auth.php';
