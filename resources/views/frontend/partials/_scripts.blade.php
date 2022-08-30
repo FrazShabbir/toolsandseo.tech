@@ -2,4 +2,3 @@
 <script src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
 @yield('scripts')
 @stack('js')
-@stack('partial_js')

@@ -12,5 +12,6 @@
 {{-- Custom CSS --}}
 <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
 
-@stack('css')
+
 @yield('styles')
+@stack('css')
