@@ -21,17 +21,6 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="profile-card">
-                        <div class="img">
-                            <img src="https://cdn.pixabay.com/photo/2016/04/24/14/34/youtube-1349699_1280.png"
-                                oncontextmenu="return false">
-                        </div>
-                        <div class="caption">
-                            <a href="">Youtube Video Downloader</a>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-4">
                     <div class="">
                         <div class="card">
@@ -42,20 +31,12 @@
                               </svg>
                               <p>Dental</p>
                             </div>
-                            <h1>Choice PPO</h1>
+                            <h3>Link Shortner</h3>
                             <button>View More</button>
                             <div class="accent-line"></div>
                           </div>
                     </div>
 
-                </div>
-                <div class="col-4">
-                    <div class="card_3">
-                        <div id="card">
-                            <img src="https://github.com/liarleycodie.png" class="avatar">
-                            <h1 class="title">Liarley<span>Codie<span></span></span></h1>
-                          </div>
-                    </div>
                 </div>
             </div>
         </div>
